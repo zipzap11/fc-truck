@@ -1,0 +1,106 @@
+.text {
+  padding: 0;
+  padding-top: 2rem;
+}
+.text h2 {
+  font-size: 3em;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.text .item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.2rem;
+  font-size: 1.5em;
+}
+
+.text form {
+  margin: 0;
+  width: 90%;
+}
+
+.text .item input {
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  margin-top: 0.3rem;
+  outline: none;
+  border: none;
+  background-color: #e4e4e4;
+}
+
+.text .item input:focus {
+  border: 1.3px solid black;
+}
+.text form p {
+  color: #407bff;
+  margin: 0;
+  font-size: smaller;
+  margin-top: 0.3rem;
+}
+.text form p:hover,
+.text form p:focus {
+  color: #2d5ec9;
+  text-decoration: underline;
+}
+
+.text form button {
+  background-color: #407bff;
+  color: white;
+  margin-top: 0.7rem;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  padding: 0.4rem 1rem;
+  border-radius: 0.8rem;
+}
+
+.text form button.invalid {
+  pointer-events: none;
+  background-color: grey;
+}
+
+.text form button:hover,
+.text form button:focus {
+  background-color: #2d5ec9;
+}
+.text .new {
+  width: 100%;
+  margin-top: 0.7rem;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.text .new a {
+  color: #407bff;
+  text-decoration: none;
+}
+.text .new a:hover,
+.text .new a :focus {
+  color: #2d5ec9;
+  text-decoration: underline;
+}
+
+.text .item .error {
+  color: rgb(235, 55, 55);
+  font-size: 1rem;
+  letter-spacing: 0.7px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+span.sign-error {
+  margin-top: 0.3rem;
+  width: 100%;
+  color: rgb(235, 55, 55);
+  font-size: 1rem;
+  letter-spacing: 0.7px;
+  text-decoration: underline;
+  font-weight: bolder;
+}

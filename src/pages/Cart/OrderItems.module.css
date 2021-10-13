@@ -1,0 +1,22 @@
+.order-cart {
+  width: 45%;
+}
+
+.order-cart h2 {
+  text-align: left;
+  margin: 0;
+}
+
+.items h3 {
+  text-align: left;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.items ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-height: 70vh;
+  overflow-y: scroll;
+}

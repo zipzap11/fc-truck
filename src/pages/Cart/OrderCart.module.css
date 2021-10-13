@@ -1,0 +1,33 @@
+.container {
+  padding: 1rem;
+  display: flex;
+}
+.noitem {
+  padding: 1rem;
+}
+
+.noitem p {
+  margin: 0;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.noitem a {
+  border-radius: 0.5rem;
+  margin-top: 1;
+  /* font-weight: bold; */
+  color: black;
+  box-shadow: 2px 2px 4px 2px #ccc;
+  padding: 0.3rem 1rem;
+  font-size: 1.3rem;
+  transition: 0.3s ease;
+}
+
+.loading {
+  font-size: 2rem;
+}
+
+.noitem a:hover {
+  background-color: #c5d6fc;
+  transform: scale(2);
+}

@@ -1,0 +1,58 @@
+.control {
+  display: flex;
+  margin-bottom: 0.5rem;
+  flex-direction: column;
+  font-size: 1.2em;
+  align-items: flex-start;
+}
+
+.control label {
+  margin-bottom: 0.2rem;
+}
+
+.control input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  background-color: #e4e4e4;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.actions {
+  margin-top: 1rem;
+}
+
+.actions button {
+  margin: 0 0.5rem;
+  width: 30%;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+.actions button.cancel {
+  background-color: #ccc;
+}
+.actions button.cancel:hover,
+.actions button.cancel:focus {
+  background-color: rgb(163, 160, 160);
+}
+.actions button.submit {
+  background-color: #7384e0;
+}
+.actions button.submit:hover,
+.actions button.submit:focus {
+  background-color: #4c5aaa;
+}
+
+.invalid {
+  color: rgb(223, 48, 17);
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,113 @@
+.text h2 {
+  padding-top: 1.7rem;
+  font-weight: 500;
+  font-size: 3em;
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.text p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.3em;
+}
+
+.text button {
+  margin-top: 0.5rem;
+  outline: none;
+  border: none;
+  overflow: hidden;
+  border-radius: 0.7rem;
+}
+
+.text button a {
+  display: block;
+  background-color: #407bff;
+  border-radius: 0.7rem;
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.text button a:hover {
+  background-color: rgb(153, 185, 255);
+}
+
+@media (max-width: 1140px) {
+  .text h2 {
+    font-size: 2.5em;
+  }
+
+  .text p {
+    font-size: 1.3em;
+  }
+
+  .text button a {
+    font-size: 1.3em;
+    padding: 0.7rem 1rem;
+  }
+}
+
+@media (max-width: 875px) {
+  .text h2 {
+    font-size: 2em;
+  }
+
+  .text p {
+    font-size: 1.1em;
+  }
+
+  .text button a {
+    font-size: 1.1em;
+    padding: 0.7rem 1rem;
+  }
+}
+@media (max-width: 740px) {
+  .text h2 {
+    font-size: 1.7em;
+  }
+
+  .text p {
+    font-size: 1em;
+  }
+
+  .text button a {
+    font-size: 1em;
+    padding: 0.7rem 1rem;
+  }
+}
+@media (max-width: 670px) {
+  .text {
+    margin-right: 0;
+  }
+  .text h2 {
+    font-size: 2.1em;
+  }
+
+  .text p {
+    font-size: 1.2em;
+  }
+
+  .text button a {
+    font-size: 1.2em;
+    padding: 0.7rem 1rem;
+  }
+}
+@media (max-width: 470px) {
+  .text h2 {
+    font-size: 1.8em;
+  }
+
+  .text p {
+    font-size: 1.1em;
+    margin-top: 0.5rem;
+    margin: 0;
+  }
+
+  .text button a {
+    font-size: 1.1em;
+    padding: 0.7rem 1rem;
+  }
+}

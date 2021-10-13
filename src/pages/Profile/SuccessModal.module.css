@@ -1,0 +1,23 @@
+.success i {
+  color: green;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.success h3 {
+  margin: 0.5rem;
+}
+
+.success button {
+  border: none;
+  outline: none;
+  margin-top: 0.5rem;
+  background-color: #ccc;
+  font-size: 1.2em;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.success button:hover {
+  background-color: rgb(163, 160, 160);
+}

@@ -1,0 +1,38 @@
+.item {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 3px 1px rgb(182, 180, 180);
+  text-align: left;
+  border-radius: 0.7rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.item .left h3,
+.item .right h3 {
+  margin: 0.5rem 0;
+  margin-top: 0;
+}
+.item ol {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.item ol li {
+  margin: 0;
+}
+
+.item .left,
+.item .right {
+  width: 50%;
+  padding: 0.5rem;
+}
+.right {
+  border-left: 2px solid black;
+}
+
+.item .right p {
+  margin: 0.3rem 0;
+  font-size: 1em;
+  font-weight: bolder;
+}

@@ -1,0 +1,197 @@
+.order-detail {
+  padding: 0.3rem 1.5rem;
+  width: 55%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  background-color: rgb(240, 239, 239);
+}
+
+.order-detail h2 {
+  margin: 0.5rem 0;
+}
+
+.control {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.control select {
+  font-size: 1.2em;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+}
+
+.control option {
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.control input {
+  flex: 1;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  display: block;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+}
+
+.control .date::placeholder {
+  font-size: 0.8em;
+}
+
+.summary {
+  text-align: left;
+}
+
+.summary h4 {
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.summary ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+.summary ul .item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary ul .item p {
+  font-size: 1em;
+  margin: 0.5rem;
+}
+
+.subtotal,
+.total,
+.ongkir {
+  display: flex;
+  justify-content: space-between;
+}
+.total {
+  padding: 0.5rem;
+}
+.ongkir {
+  border-bottom: 2px solid black;
+}
+.subtotal p,
+.total p,
+.ongkir p {
+  margin: 0.5rem;
+}
+
+.subtotal p,
+.ongkir p {
+  font-size: 1.1em;
+}
+
+.total p {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.action {
+  text-align: right;
+}
+
+.order-detail .submit {
+  padding: 0.6rem 2rem;
+  font-size: 1.2em;
+  background-color: #407bff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 0.2rem;
+  color: white;
+  margin-left: auto;
+  transition: 0.3s ease;
+}
+
+.order-detail .submit:hover {
+  background-color: #0739a7;
+}
+
+.invalid-input,
+.invalid-input-below {
+  color: rgb(240, 74, 74);
+  margin: 0;
+  margin-top: 0.2rem;
+  padding: 0 0.5rem;
+}
+
+.invalid-input-below {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.loader {
+  width: 5vw;
+  height: 5vw;
+}
+
+.success p,
+.failed p {
+  font-size: 1.2em;
+}
+
+.success .close,
+.failed .close {
+  font-size: 1.1em;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ccc;
+  border: none;
+  outline: none;
+}
+.success .close:hover,
+.failed .close:hover {
+  background-color: rgb(163, 160, 160);
+}
+
+.success .goto {
+  background-color: #7384e0;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+.success .goto:hover {
+  background-color: #4c5aaa;
+}
+
+.check {
+  font-size: 2em;
+  color: #2bc76c;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+
+.success h3 {
+  margin: 0rem;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.success .more {
+  font-size: 0.9em;
+  margin: 0;
+  margin-bottom: 1rem;
+}

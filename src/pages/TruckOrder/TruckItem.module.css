@@ -1,0 +1,98 @@
+.card {
+  display: flex;
+  width: 95%;
+  margin: 0.5rem auto;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.card .detail {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card h3 {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.card .price {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.2rem;
+}
+
+.card p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+}
+
+.card .detail button {
+  border: none;
+  outline: none;
+  padding: 0.7rem 1rem;
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #7384e0;
+  margin-top: auto;
+}
+
+.card button:hover {
+  background-color: #4c5aaa;
+}
+
+.wrapper {
+  width: 30%;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-right: 2rem;
+}
+
+.wrapper img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.loader {
+  width: 5vw;
+  height: 5vw;
+}
+
+.success p,
+.failed p {
+  font-size: 1.2em;
+}
+
+.success .close,
+.failed .close {
+  font-size: 1.1em;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ccc;
+  border: none;
+  outline: none;
+}
+.success .close:hover,
+.failed .close:hover {
+  background-color: rgb(163, 160, 160);
+}
+
+.success .goto {
+  background-color: #7384e0;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+.success .goto:hover {
+  background-color: #4c5aaa;
+}

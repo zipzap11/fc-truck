@@ -1,0 +1,119 @@
+.profile {
+  padding: 1rem 0;
+}
+
+.profile h2 {
+  font-size: 2.5em;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.profile-data {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-data .left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-data .left .wrapper {
+  border: 1px solid rgb(161, 161, 161);
+  box-shadow: 0.7px 0.7px 1px 1px rgb(199, 195, 195);
+  border-radius: 0.5rem;
+  width: 75%;
+  min-height: 60%;
+  height: 270px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-data .left .wrapper .avatar {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.left .wrapper button {
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.5px 1px 1px rgb(175, 174, 174);
+  border: 0.5px solid rgb(219, 211, 211);
+  outline: none;
+  mix-blend-mode: luminosity;
+  padding: 0.5rem 1rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.left .wrapper button:hover {
+  box-shadow: 1px 2px 2px rgb(175, 174, 174);
+}
+
+.left .wrapper button:active {
+  box-shadow: inset 1px 1px 2px rgb(175, 174, 174);
+}
+
+.left .saldo {
+  background-color: rgba(50, 105, 226, 80%);
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  width: 75%;
+}
+
+.profile-data .data {
+  width: 50%;
+}
+
+.data .control {
+  background-color: rgba(106, 169, 227, 50%);
+  display: flex;
+  align-items: center;
+  width: 90%;
+  text-align: left;
+  margin: 1.2rem 0;
+  padding: 0 0.7rem;
+  border-radius: 0.7rem;
+}
+
+.data .control label {
+  font-size: 1.3em;
+  padding: 1rem 0;
+  margin-right: 0.5rem;
+}
+
+.data .control input {
+  font-size: 1.2em;
+  padding: 0.5rem 0;
+  border: none;
+  flex-grow: 1;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+}
+
+.data .actions {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.data .btn {
+  background-color: rgb(19, 106, 187);
+  border: none;
+  font-size: 1.3em;
+  padding: 0.7rem 1rem;
+  color: aliceblue;
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  background-color: rgb(6, 67, 124);
+}
+
+.none {
+  display: none;
+}
